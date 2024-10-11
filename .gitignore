@@ -1,4 +1,7 @@
+# Ignore target directory
 target/
+
+# Do not ignore the Maven wrapper JAR file
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -22,3 +25,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+# JaCoCo specific files to ignore
+jacoco.exec
+jacoco-report/
